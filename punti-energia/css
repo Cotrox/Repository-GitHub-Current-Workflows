@@ -79,3 +79,32 @@ button {
 .wp-form-contact-us-send:hover {
     width: 90%;
 }
+
+/* Block: Mercato Libero */
+
+.sub-pages-list-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.sub-pages-list-box > li {
+    background: #615cf5;
+    padding: 15px;
+    border-radius: 15px;
+    list-style-type: none;
+    transition: .2s ease-out;
+}
+
+.sub-pages-list-box > li:hover {
+    background: #D87E1A;
+    box-shadow: 0 0 0 15px #00000015
+}
+
+.sub-pages-list-box a {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: bold;
+}
