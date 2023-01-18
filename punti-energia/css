@@ -3,8 +3,18 @@ button {
 	transition: .2s ease-out;
 }
 
+/* Slider */
+.n2_clear ss3-force-full-width {
+    max-width: 100% !important;
+}
+
 /* Forms */
-.wpforms-container {
+.wp-form-contact-us {
+    background: #9200b7;
+    padding: 15px;
+}
+
+.wpforms-container > form {
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -18,10 +28,6 @@ button {
 .wpforms-title {
     font-size: 32pt !important;
     padding: 15px;
-}
-
-.wpforms-container > form {
-    margin: 0 !important;
 }
 
 .wpforms-description {
@@ -64,7 +70,12 @@ button {
 }
 
 .wp-form-contact-us-send {
-    width: 100%;
+    width: 50%;
     text-transform: uppercase;
     font-weight: bold;
+    transition: .2s ease-out;
+}
+
+.wp-form-contact-us-send:hover {
+    width: 90%;
 }
