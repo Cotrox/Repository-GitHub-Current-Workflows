@@ -7,7 +7,7 @@ button {
 .wpforms-container {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     background: #fbfbfb;
     margin: 50px auto !important;
     padding: 15px;
@@ -15,7 +15,37 @@ button {
     box-shadow: 0 0 15px #00000015;
 }
 
-.wpforms-container input {
+.wpforms-title {
+    font-size: 32pt !important;
+    padding: 15px;
+}
+
+.wpforms-container > form {
+    margin: 0 !important;
+}
+
+.wpforms-description {
+    padding: 0 15px;
+}
+
+.wpforms-field-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.wpforms-field-container > div {
+    width: 45%;
+}
+
+.wp-form-contact-us-subject,
+.wp-form-contact-us-message {
+    width: 92% !important;
+}
+
+.wpforms-container input,
+.wpforms-container textarea {
     background: #f2f2f2 !important;
 	max-width: calc(100% - 10px) !important;
 	margin: 5px;
