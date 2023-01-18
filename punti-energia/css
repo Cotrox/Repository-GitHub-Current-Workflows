@@ -96,11 +96,12 @@ button {
     border-radius: 15px;
     list-style-type: none;
     transition: .2s ease-out;
+    cursor: pointer;
 }
 
 .sub-pages-list-box > li:hover {
     background: #D87E1A;
-    box-shadow: 0 0 0 15px #00000015
+    box-shadow: 0 0 15px #00000015;
 }
 
 .sub-pages-list-box a {
