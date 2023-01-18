@@ -84,10 +84,10 @@ button {
 
 .sub-pages-list-box {
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
 }
 
 .sub-pages-list-box > li {
