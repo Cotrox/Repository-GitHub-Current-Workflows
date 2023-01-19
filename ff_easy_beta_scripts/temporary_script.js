@@ -87,7 +87,9 @@
 							document.querySelector('.fast.send textarea').value = '';
 						});
 					} else {
-						window.RuleZFramework.components.progressBar("Pubblicazione in corso...", "Il contenuto del post non dovrebbe essere identico al precedente! ❌", 0, 10, () => { });
+						window.RuleZFramework.components.progressBar("Pubblicazione in corso...", "Il contenuto del post non dovrebbe essere identico al precedente! ❌", 0, 10, () => {
+                            // do something...
+                        });
 					}
 				} else if (new_post.id === doc_post.id && Commons.user.nickname !== doc_author) {
 					window.RuleZFramework.components.progressBar("Pubblicazione in corso...", "Devi attendere alcuni secondi tra l'invio di un messaggio e l'altro. Riprova tra 20 secondi! ❌", 0, 10, () => {
