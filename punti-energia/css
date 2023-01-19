@@ -132,8 +132,3 @@ button {
 .wp-pages-big-group:hover img {
     box-shadow: 0 0 15px #00000040;
 }
-
-.wp-pages-big-group:hover figure {
-    float: right; 
-    margin-left: 10px
-}
