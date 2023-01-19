@@ -80,7 +80,7 @@ button {
     width: 90%;
 }
 
-/* Block: Mercato Libero */
+/* Pages */
 
 .sub-pages-list-box {
     display: flex;
@@ -108,4 +108,22 @@ button {
     color: #fff !important;
     text-decoration: none !important;
     font-weight: bold;
+}
+
+.wp-pages-big-group {
+    display: flex;
+}
+
+.wp-pages-big-group > div {
+    width: 50%;
+}
+
+.wp-pages-big-group img {
+    border-radius: 15% 30% !important;
+    padding-left: 20px;
+    transition: .2s ease-out;
+}
+
+.wp-pages-big-group:hover img {
+    box-shadow: 0 0 15px #00000040;
 }
