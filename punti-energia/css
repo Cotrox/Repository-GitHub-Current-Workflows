@@ -118,9 +118,13 @@ button {
     width: 50%;
 }
 
+.wp-pages-desc {
+    padding: 15px
+}
+
 .wp-pages-big-group img {
     border-radius: 15% 30% !important;
-    padding-left: 20px;
+    margin-left: 20px;
     transition: .2s ease-out;
 }
 
