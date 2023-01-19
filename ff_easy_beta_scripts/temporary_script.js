@@ -1,5 +1,6 @@
 // LiveSubmit
 (function () {
+    alert('ok');
 	let myScript = () => {
 		let sender = document.querySelector('.fast.send .forminput');
 		if (sender && (document.domain != 'graficarulez.forumfree.it' || (document.domain == 'graficarulez.forumfree.it' && localStorage.getItem('live-submit') == 'true'))) {
