@@ -1,6 +1,5 @@
 // LiveSubmit
 (function () {
-    alert('ok');
 	let myScript = () => {
 		let sender = document.querySelector('.fast.send .forminput');
 		if (sender && (document.domain != 'graficarulez.forumfree.it' || (document.domain == 'graficarulez.forumfree.it' && localStorage.getItem('live-submit') == 'true'))) {
@@ -37,13 +36,13 @@
 
 				if (post.length === 0) {
 					window.RuleZFramework.components.progressBar('Pubblicazione in corso...', 'Devi inserire un messaggio per poterlo inviare! ❌', 0, 10, () => {
-						return false;
+						// do something...
 					});
 				}
 
 				if (post.length !== 0 && post.length < 2) {
 					window.RuleZFramework.components.progressBar('Pubblicazione in corso...', "Devi inserire almeno due caratteri per inviare un messaggio! ❌", 0, 10, () => {
-						return false;
+						// do something...
 					});
 				}
 
@@ -92,7 +91,7 @@
 					}
 				} else if (new_post.id === doc_post.id && Commons.user.nickname !== doc_author) {
 					window.RuleZFramework.components.progressBar("Pubblicazione in corso...", "Devi attendere alcuni secondi tra l'invio di un messaggio e l'altro. Riprova tra 20 secondi! ❌", 0, 10, () => {
-						return false;
+						// do something...
 					});
 				} else {
 					let res_color = new_post.querySelector('.color');
