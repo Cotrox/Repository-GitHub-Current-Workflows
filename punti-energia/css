@@ -124,6 +124,7 @@ button {
 
 .wp-pages-big-group img {
     border-radius: 15% 30% !important;
+    margin-top: -40px;
     margin-left: 20px;
     transition: .2s ease-out;
 }
